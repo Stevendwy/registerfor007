@@ -1,0 +1,4 @@
+/* pages/topay/index.wxss */
+.topay-img{
+  width: 100%;
+}

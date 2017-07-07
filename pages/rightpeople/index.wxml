@@ -1,0 +1,50 @@
+<!--pages/rightpeople/index.wxml-->
+<view class="pay-phone">
+ <view class="pay-phone-body">
+  <text class="pay-phone-text">{{titlemes}}</text>
+  <image src="{{imgsrc}}" class="pay-phone-img" mode="widthFix"></image>
+
+
+  <view class="header">
+       <view class="header-body">
+        <view class="header-body-world">
+          <view class="world-left">
+            <text>网</text>
+            <text>页</text>
+            <text>版</text>
+            <text>地</text>
+            <text>址:</text>
+          </view>
+          <view class="world-right">{{datalist[0]}}</view>
+        </view>
+        <view class="header-body-world">
+          <view class="world-left">
+            <text>账</text>
+            <text>号:</text>
+          </view>
+          <view class="world-right">{{datalist[1]}}</view>
+        </view>
+        <view class="header-body-world">
+          <view class="world-left">
+            <text>密</text>
+            <text>码:</text>
+          </view>
+          <view class="world-right">{{datalist[2]}}(手机号后六位)</view>
+        </view>
+        <view class="header-body-world">
+          <view class="world-left">
+            <text>有</text>
+            <text>效</text>
+            <text>期</text>
+            <text>至:</text>
+          </view>
+          <view class="world-right">{{datalist[3]}}</view>
+        </view>
+       </view>
+   </view>
+
+   <button hover-class="hoverclass" class="pay-phone-btn">立即使用</button>
+ </view>
+
+
+</view>

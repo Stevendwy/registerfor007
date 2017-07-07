@@ -1,0 +1,126 @@
+/**index.wxss**/
+.body{
+  display: flex;
+  min-height: 920rpx;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(243, 239, 252);
+}
+.body .body-input {
+  width: 90%;
+  margin: 0 auto;
+}
+.body .body-input .input-list{
+  width: calc(100% - 10rpx);
+  height:96rpx;
+  margin: 20px 0;
+  background: #FFFFFF;
+  border-radius: 2px;
+  padding-left: 10rpx;
+}
+
+.input-list-child {
+  font-size: 28rpx;
+  color: #999999;
+  height: 96rpx;
+  width: 100%;
+  line-height: 96rpx;
+}
+.verify{
+  width: 60%;
+  display: inline-block;
+}
+.input-list-sentnum{
+  display: inline-block;
+  font-size: 28rpx;
+  color: #1AA0F3;
+  height: 96rpx;
+  width: 40%;
+  line-height: 96rpx;
+  float: right;
+  text-align:center;
+
+}
+
+/*来源选择*/
+.body .body-type{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  vertical-align: center;
+  align-content: center;
+}
+.body .body-type .body-type-child{
+  width: 22%;
+  height: 88rpx;
+  color: #666666;
+  background-color: #FFFFFF;
+  border-radius: 1px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+}
+.typechildno{
+  border: 1px solid #FFFFFF;
+}
+.typechild{
+  border: 1px solid #1AA0F3;
+  color: red;
+}
+
+
+.body-bottom{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: 71rpx auto 28rpx auto;
+}
+.agereeinfo checkbox-group{
+  display: inline-block;
+}
+.type-world{
+  font-size: 24rpx;
+  color: #0D6FB8;
+}
+.type-worldcolor{
+  font-size: 24rpx;
+  color: #1AA0F3;
+}
+.type-submit{
+  width: 90%;
+  margin: 0 auto;
+  height:88rpx;
+  background: #0D6FB8;
+  border-radius: 2px;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  line-height:88rpx;
+}
+
+.login-in{
+  width: 90%;
+  margin: 40rpx auto;
+  text-align: right;
+}
+.login-in text{
+  font-size: 28rpx;
+  color: #666666;
+}
+.login-in .login-in-color{
+  color: #1AA0F3;
+}
+
+.logn-img{
+  margin: 0 auto;
+}
+
+.bottommes{
+  width: 90%;
+  margin: 20px auto;
+  font-size: 24rpx;
+  color: #999999;
+  text-align: right;
+}

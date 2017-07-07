@@ -1,0 +1,78 @@
+/* pages/rightpeople/index.wxss */
+.pay-phone{
+  text-align: center;
+  background: #FFFFFF;
+  padding-bottom:110rpx; 
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+.pay-phone .pay-phone-text{
+  font-size: 32rpx;
+  color: #333333;
+  letter-spacing: 0px;
+  line-height: 42rpx;
+  margin: 40rpx auto;
+  display:inline-block;
+   width:100%;
+}
+ .pay-phone-img{
+  width: 360rpx;
+  height: 172rpx;
+  
+}
+
+.pay-phone .header{
+  text-align: center;
+  margin: 40rpx auto;
+}
+.header-title{
+  font-size: 32rpx;
+  color: #333333;
+  letter-spacing: 0px;
+  line-height: 42rpx;
+  margin: 40rpx auto 20rpx;
+  font-weight: 900;
+}
+.header-body{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-body-world{
+  width: 100%;
+}
+.world-left{
+  display: inline-flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 25%;
+  font-size: 28rpx;
+  color: #333333;
+  letter-spacing: 0px;
+  line-height: 40rpx;
+}
+.world-right{
+  display: inline-flex;
+  font-size: 28rpx;
+  color: #333333;
+  letter-spacing: 0px;
+  line-height: 40rpx;
+  margin-left:20rpx;
+  width: 50%;
+}
+
+.pay-phone-btn{
+  width: 320rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  background-color:#1AA0F3; 
+}
+.hoverclass{
+  width: 320rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  background-color:#FF8F58;
+}

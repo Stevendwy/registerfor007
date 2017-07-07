@@ -1,0 +1,62 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <!--头部列表注册-->
+  <view class="body" >
+    <form bindsubmit="formSubmit">
+      <view class="body-input">
+        <view class="input-list">
+          <input class="input-list-child phone" type="text"
+            name="inputphone" 
+            placeholder="手机号" />
+        </view>
+        <view class="input-list">
+          <input class="input-list-child verify" type="text" 
+          name="inputname" 
+          placeholder="验证码" />
+          <view class="input-list-sentnum">点击发送验证码</view>
+        </view>
+        <view class="input-list">
+          <input class="input-list-child name" type="text" 
+          name="inputfactory" 
+          placeholder="姓名" />
+        </view>
+        <view class="input-list">
+          <input class="input-list-child company"  type="text"
+          name="inputcity"  
+          placeholder="公司名称" />
+        </view>
+
+      </view>
+      <view class="body-type" >
+        <block wx:for="{{datalist}}" wx:key="{{item.clickid}}" wx:for-index="idx">
+          <view class="{{userclickid==idx?'body-type-child typechild':'body-type-child typechildno'}}" 
+        data-idx="{{idx}}" bindtap="typeClick" >{{item.name}}</view>
+        </block>
+      </view>
+      
+      <view class="body-bottom">
+        <view class="agereeinfo">
+          <checkbox-group bindchange="listenCheckboxChange">
+             <checkbox  value="value" class="agreee-checkbox" checked="{{checkClick}}" />
+          </checkbox-group>         
+        <text class="type-world">我已阅读并同意</text>
+        <text class="type-worldcolor" bindtap="agreeClick">《零零汽™EPC查询系统用户注册协议》</text>
+        </view>
+      </view>
+      <button class="type-submit" formType="submit">注册</button>
+    </form>
+
+    <view class="login-in">
+      <text>已有账号，</text>
+      <text class="login-in-color">立即登录</text>
+    </view>
+
+    <image mode="widthFix" class="logn-img"  src="../../image/p_logo.png"></image>
+
+    <view class="bottommes">
+      <text>{{bottonmes}}</text>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,73 @@
+<!--pages/register/index.wxml-->
+<view class="registerpage">
+ <view class="page-content">
+   <view class="header">
+     <view class="header-title">恭喜您注册成功！</view>
+       <view class="header-body">
+        <view class="header-body-world">
+          <view class="world-left">
+          <text>网</text>
+          <text>页</text>
+          <text>版</text>
+          <text>地</text>
+          <text>址:</text>
+          </view>
+          <view class="world-right">{{datalist[0]}}</view>
+        </view>
+        <view class="header-body-world">
+          <view class="world-left">
+            <text>账</text>
+            <text>号:</text>
+          </view>
+          <view class="world-right">{{datalist[1]}}</view>
+        </view>
+        <view class="header-body-world">
+          <view class="world-left">
+            <text>密</text>
+            <text>码:</text>
+          </view>
+          <view class="world-right">{{datalist[2]}}(手机号后六位)</view>
+        </view>
+        <view class="header-body-world">
+          <view class="world-left">
+            <text>有</text>
+            <text>效</text>
+            <text>期</text>
+            <text>至:</text>
+          </view>
+          <view class="world-right">{{datalist[3]}}</view>
+        </view>
+       </view>
+   </view>
+
+   <view class="cards">
+    <image  mode="widthFix" class="cards-year" src="{{imagechoose[0]}}"></image>
+    <image  mode="widthFix" class="cards-days" src="{{imageunchoose[1]}}"></image>
+   </view>
+
+   <view class="inputbtn">
+    <view class="inputbtn-type hascards">
+      <text>我有会员卡（填写支付码激活）</text>
+      <view class="inputbtn-type-img" bindtap="havCards">
+        <image mode="widthFix" src="{{gopayimg}}"></image>
+      </view>
+    </view>
+    <view class="inputbtn-type moneyis">
+      <text>应付金额：</text>
+      <view class="inputbtn-type-img">¥2000</view>
+    </view>
+    <view class="inputbtn-type payway">
+      <text>支付方式：</text>
+      <view class="inputbtn-type-img" bindtap="goPay">
+        <image mode="widthFix" src="{{gopayimg}}"></image>
+      </view>
+    </view>
+   </view>
+   <button class="pay-btn pay-now" type="warn">立即支付</button>
+   <button class="pay-btn use-now" type="warn">立即使用</button>
+
+   <view class="bottommes">
+      <text>{{bottonmes}}</text>
+    </view>
+ </view>
+</view>

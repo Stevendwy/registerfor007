@@ -1,0 +1,11 @@
+<!--pages/verify/index.wxml-->
+<view class="verigypage">
+ <input class="verigy-inputpay" type="text" placeholder="会员卡支付码" />
+ <view class="verigy-input">
+  <input class="verigy-inputsure" type="text" placeholder="验证码" />
+  <view class="verigy-send">1234</view>
+ </view>
+
+ <button class="verigy-btn" type="warn" bindtap="btnClick">激活会员卡</button>
+
+</view>

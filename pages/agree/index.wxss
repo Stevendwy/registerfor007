@@ -1,0 +1,17 @@
+/* pages/agree/index.wxss */
+.agreepage{
+  display: flex;
+  min-height: 920rpx;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(243, 239, 252);
+}
+.agreepage-world{
+  margin: 40rpx 40rpx 0 40rpx;
+  font-size: 28rpx;
+  color: #333333;
+}
+.agreepage-world text{
+  width: 100%;
+  display: block;
+}

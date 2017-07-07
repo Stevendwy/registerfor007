@@ -1,0 +1,6 @@
+<!--pages/topay/index.wxml-->
+<view class="topay">
+ <!--<image class="topay-img" mode="widthFix" src="../../image/ali.jpeg"></image>-->
+ <image class="topay-img" mode="widthFix" bindlongtap="longTouch" src="../../image/wx.jpeg"></image>
+</view>
+<text>pages/topay/index.wxml</text>

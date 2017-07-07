@@ -1,0 +1,109 @@
+/* pages/register/index.wxss */
+.registerpage{
+  display: flex;
+  min-height: 920rpx;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(243, 239, 252);
+}
+.page-content{
+  width: 96%;
+  margin: 0 auto;
+}
+.header{
+  text-align: center;
+}
+.header-title{
+  font-size: 32rpx;
+  color: #333333;
+  letter-spacing: 0px;
+  line-height: 42rpx;
+  margin: 40rpx auto 20rpx;
+  font-weight: 900;
+}
+.header-body{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-body-world{
+  width: 100%;
+}
+.world-left{
+  display: inline-flex;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 30%;
+  font-size: 24rpx;
+  color: #333333;
+  letter-spacing: 0px;
+  line-height: 40rpx;
+}
+.world-right{
+  display: inline-flex;
+  font-size: 24rpx;
+  color: #333333;
+  letter-spacing: 0px;
+  line-height: 40rpx;
+  margin-left:20rpx;
+  width: 40%;
+}
+
+/*图片设置*/
+.cards{
+  width: 100%;
+  display: flex;
+  margin: 20rpx auto;
+  justify-content: space-around;
+}
+.cards .cards-year,.cards .cards-days{
+ height: 160rpx;
+ width: 340rpx;
+}
+
+/*输入框处理*/
+
+.inputbtn{
+  margin-bottom: 40rpx;
+}
+.inputbtn .inputbtn-type{
+  display: flex;
+  height: 96rpx;
+  background: #FFFFFF;
+  border: 1rpx solid #D8D8D8;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx 0;
+}
+
+.inputbtn .hascards{
+  border-radius: 4px;
+  margin-bottom: 20rpx;
+}
+.inputbtn .inputbtn-type .inputbtn-type-img{
+  display:inline-flex;
+  width:20%;
+  height:100%;
+  align-items:center;
+}
+.inputbtn .inputbtn-type .inputbtn-type-img image{
+  width: 100%;
+}
+.pay-btn{
+  background: #FF5502;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+  border-radius: 4px;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  margin-bottom: 37rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+
+.bottommes{
+  width: 100%;
+  margin: 100rpx auto 20rpx;
+  font-size: 24rpx;
+  color: #999999;
+  text-align: right;
+}

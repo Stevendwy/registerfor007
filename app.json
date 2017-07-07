@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/topay/index",
+    "pages/index/index",
+    "pages/agree/index",
+    "pages/register/index",
+    "pages/verify/index",
+    "pages/rightpeople/index",
+    "pages/payright/index",
+    "pages/payerr/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "注册零零汽账号",
+    "navigationBarTextStyle":"black"
+  }
+}
